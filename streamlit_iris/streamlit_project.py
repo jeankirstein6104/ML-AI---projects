@@ -1,6 +1,4 @@
 import streamlit as st
-with open('style/style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 about = st.Page(
     page = 'Pages/about.py',

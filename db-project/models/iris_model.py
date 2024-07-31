@@ -19,6 +19,8 @@ x = pd.DataFrame(iris.data, columns = iris.feature_names)
 y = iris.target
 
 xtr, xte, ytr, yte = train_test_split(x, y, test_size = 0.2)
+
+# SVM classfier is used to predict the iris components
 model = SVC()
 model.fit(xtr, ytr)
 

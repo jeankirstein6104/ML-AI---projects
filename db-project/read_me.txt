@@ -11,7 +11,8 @@ Features
 *	Retrieve Flower Parameters: Access stored flower data using the ObjectId.
 *	Update Flower Parameters: Modify existing flower data.
 *	Delete Flower Parameters: Remove flower data from the database.
-*	Predict Flower Type: Utilize a pre-trained iris prediction model from sklearn to classify the type of flower based on its parameters.
+*	Predict Flower Type: Utilize a pre-trained iris prediction model from sklearn to classify the type of
+  flower based on its parameters.
 
 Technology Stack
 
